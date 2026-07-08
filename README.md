@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌐 Language Translation Tool
 
-# Run and deploy your AI Studio app
+A simple and intuitive web application that translates text between multiple 
+languages in real-time. Users can enter text, select a source and target 
+language, and instantly view the translated output.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/2eb77e20-7af7-4b60-b2ab-d5376fb5e83a
+- **Text Input Interface** – Clean UI to enter text for translation
+- **Language Selection** – Dropdowns to choose source and target languages
+- **Real-Time Translation** – Powered by Google Translate API / Microsoft 
+  Translator API
+- **Instant Results** – Translated text displayed clearly on screen
+- **Copy to Clipboard** – One-click copy of translated text
+- **Text-to-Speech** – Listen to the translation with built-in audio playback
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** HTML, CSS, JavaScript (or React, depending on your build)
+- **API:** Google Translate API / Microsoft Translator API
+- **Extras:** Web Speech API (for text-to-speech), Clipboard API
 
+## 🚀 How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. User enters text into the input box.
+2. User selects the source language and target language from dropdowns.
+3. On submit, the text is sent to the translation API.
+4. The API returns the translated text.
+5. The translated text is displayed on the screen.
+6. User can copy the result or listen to it via text-to-speech.
+
+## 📌 Future Enhancements
+
+- Auto-detect source language
+- Translation history
+- Support for voice input
+- Offline translation caching
