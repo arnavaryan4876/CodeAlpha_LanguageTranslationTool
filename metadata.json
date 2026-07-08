@@ -1,0 +1,6 @@
+{
+  "name": "LinguistPro",
+  "description": "A professional, AI-powered multi-language translation assistant with advanced grammar verification, interactive dictionary lookups, and saved phrasebook.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
